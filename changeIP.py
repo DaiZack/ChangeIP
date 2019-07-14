@@ -8,7 +8,7 @@ def changeIP(usedip=[]):
     url = 'https://free-proxy-list.net/'
     r = requests.get(url).content
     soup = BeautifulSoup(r)
-    rows = soup.select('tr')[1:]
+    rows = soup.select('tr')[1:20]
     ips = [r.select('td')[0].text+':'+r.select('td')[1].text for r in rows]
     url = 'https://httpbin.org/ip'
     for ip in ips:
