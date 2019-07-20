@@ -1,0 +1,6 @@
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+slmgr /skms kms8.msguides.com
+slmgr /ato
+
+
+// https://freeproductkeys.com/free-windows-10-product-key-2019-100-working/
